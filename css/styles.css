@@ -106,6 +106,21 @@ ul {
   margin-left: 50px;
   display: block;
 }
+.site-nav-item {
+  position: relative;
+}
+.nav-link.link-activ::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  height: 4px;
+  width: 100%;
+
+  background-color: var(--accent-color);
+  border-radius: 4px;
+}
 
 .nav {
   display: flex;
