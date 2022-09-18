@@ -668,6 +668,9 @@ color: var(--text-color);
   position: relative;
   overflow: hidden;
   }
+  .project-item:hover .project-thumb-text {
+    transform: translateY(0);
+  }  
 .project-thumb-text {
   position: absolute;
   width: 100%;
