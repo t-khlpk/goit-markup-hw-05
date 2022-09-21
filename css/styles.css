@@ -533,11 +533,11 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
  
 .address-map:hover,
-.address-map:active,
+.address-map:focus,
 .address-mail:hover,
-.address-mail:active,
+.address-mail:focus,
 .adress-tel:hover,
-.adress-tel:active {
+.adress-tel:focus {
 color:var(--accent-color);
 }
 
